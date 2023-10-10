@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.div {
+    
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px dotted red;
+    border-radius: 12px;
+}
+#contain {
+    background-color: brown;
+    text-align: center;
+    box-sizing: border-box;
+}
+#box2 {
+    background-color: yellow;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+
+#btn {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    margin: 50px;
+    border: 2px dotted red;
+    border-radius: 40px;
+}

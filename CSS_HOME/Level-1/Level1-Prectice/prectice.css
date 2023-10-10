@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+#heading p {
+    color: yellow;
+}
+
+#first, #second{
+    color: steelblue;
+    font-size: larger;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+ * {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+ }
+
+ .div p {
+    background-color: rgba(90, 50, 30, 0.8);
+ }
+ main {
+    background-color: rgb(127, 214, 214);
+    height: 500px;
+ }
+#products {
+    /* background-color: green;
+    background-image: url(/CSS_HOME/Icons/RegisteredIcon.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 20s0vh;
+    width: 200vh;
+    background: green url(/CSS_HOME/Icons/myPic.jpg) center no-repeat;
+
+}

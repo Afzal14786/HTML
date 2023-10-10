@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(74, 104, 94);
+}
+.contains h2 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contains ul li {
+    color: rgba(255, 0, 0, 0.5);
+    list-style-type: none;
+    text-align: center;
+}
+/* 
+Background Colors
+ */
+ h1 {
+    text-align: center;
+    color: #987;
+    background-color: rgb(43, 13, 214);
+ }
+.first {
+    background-color: green;
+    text-align: center;
+    font-size: 23px;
+}
+.second {
+    background-color: orange;
+    text-align: center;
+    font-size: 23px;
+}
+
+#btn {
+    color: black;
+    background-color: chartreuse;
+    align-items: center;
+    margin: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+#box1 {
+    background-color: #0e0ba8;
+}
+
+#box2 {
+    background-color: yellow;
+    /* visibility: hidden; */
+}
