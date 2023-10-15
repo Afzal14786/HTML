@@ -1,0 +1,23 @@
+.outerdiv {
+    height: 30px;
+    width: 90%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 4%;
+}
+
+.innerdiv {
+    background-color: rgb(40, 194, 20);
+    height: 100%;
+    border-radius: 20px;
+
+    animation: loader-animation 3s infinite;
+}
+@keyframes loader-animation {
+    0% {width: 0%;}
+    90% {width: 95%;}
+    95% {width: 75%;}
+    100% {width: 100%;}
+}

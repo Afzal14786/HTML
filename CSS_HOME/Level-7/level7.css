@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#contain {
+    margin: 20px;
+    background-color: turquoise;
+}
+
+#contain h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+#contain ul {
+    padding-top: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pseudo {
+    margin: 20px;
+    padding-top: 20px;
+    background-color: burlywood;
+}
+
+#pseudo h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#pseudo ul {
+    padding-top: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ #btn {
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 15%;
+    background-color: darkslateblue;
+    color: white;
+}
+
+#btn:hover {
+    height: 55px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#btn:active {
+    height: 55px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(170, 243, 96);
+}
+
+#transition {
+    margin: 20px;
+    padding-top: 20px;
+    background-color: rgb(52, 10, 167);
+}
+#transition h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#transition p b {
+    color: rgb(158, 34, 196);
+    text-decoration: underline;
+}
+
+#transition p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#transition ul {
+    padding-top: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#transition ul i {
+    color: yellow;
+}
+/* 
+    Transition Button
+*/
+
+#submit {
+    height: 20px;
+    width: 70px;
+    margin-left: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(18, 103, 177);
+
+    
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function:steps(2);
+    transition-delay: 0s;
+    /* 
+        Short hand of transition
+    */
+    /* transition: all 1s ease-in-out 1s; */
+}
+
+#submit:hover {
+    height: 25px;
+    width: 80px;
+    background-color: rgb(37, 26, 182);
+}
+
+#submit:active {
+    height: 25px;
+    width: 80px;
+    border: 1px solid rgb(1, 238, 20);
+    background-color: indianred;
+}
+
+/* 
+    CSS TRANSFORM
+*/
+
+#transform {
+    margin: 20px;
+    padding-top: 20px;
+    background-color: rgb(220, 215, 235);
+}
+
+#transform h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+#transform ul {
+    padding-top: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Rotations */
+
+#headingRotation {
+    text-align: center;
+    color: blue;
+}
+#divrotation {
+    height: 300px;
+    width: 1200px;
+    margin: 50px;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.div {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: tomato;
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
+    /* transform: rotate(45deg); */
+}
+
+#deg45:hover {
+    transform: rotate(45deg);
+    transition: all 0.4s ease-in;
+    background-color: aqua;
+}
+#deg90:hover {
+    transform: rotate(90deg);
+    transition: all 0.4s ease-in;
+    background-color: rgb(22, 168, 22);
+}
+#deg135:hover {
+    transform: rotate(135deg);
+    transition: all 0.4s ease-in;
+    background-color: rgb(92, 7, 189);
+}
+#deg180:hover {
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in;
+    background-color: rgb(77, 6, 12);
+}
+#deg270:hover {
+    transform: rotate(270deg);
+    transition: all 0.4s ease-in;
+    background-color: rgb(172, 207, 14);
+}
+#deg360:hover {
+    transform: rotate(369deg);
+    transition: all 0.4s ease-in;
+    background-color: rgb(172, 21, 139);
+}
+
+/* Scale Method */
+
+#scaleMethod {
+    text-align: center;
+    color: blue;
+}
+
+#scale {
+    height: 300px;
+    width: 1200px;
+    margin: 50px;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.scale {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#scale1 {
+    background-color: aqua;
+}
+#scale2 {
+    background-color:yellow;
+}
+#scale3 {
+    background-color:springgreen;
+}
+#scale4 {
+    background-color:sienna;
+}
+#scale5 {
+    background-color:rgb(53, 15, 156);
+}
+#scale6 {
+    background-color:rgb(172, 21, 139);
+}
+#scale1:hover {
+    transform: scale(1.1);
+}
+#scale2:hover {
+    transform: scale(0.3);
+}
+#scale3:hover {
+    transform: scale(1.3);
+}
+#scale4:hover {
+    transform: scale(0.8);
+}
+#scale5:hover {
+    transform: scale(1.5);
+}
+#scale6:hover {
+    transform: scale(0.5);
+}
+
+/* Translate Method */
+
+#translate {
+    height: 300px;
+    width: 1200px;
+    margin: 50px;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#transate1 {
+    background-color: aqua;
+}
+#transate2 {
+    background-color:yellow;
+}
+#transate3 {
+    background-color:springgreen;
+}
+#transate4 {
+    background-color:sienna;
+}
+#transate5 {
+    background-color:rgb(53, 15, 156);
+}
+#transate6 {
+    background-color:rgb(172, 21, 139);
+}
+
+#transate1:hover {
+    transform: translate(50px);
+}
+#transate2:hover {
+    transform: translatey(-50px);
+}
+#transate3:hover {
+    transform: translatey(50px);
+}
+#transate4:hover {
+    transform: translate(-50px, -50px);
+}
+#transate5:hover {
+    transform: translate(50px, 100px);
+}
+#transate6:hover {
+    transform: translate(50px, -50px);
+}
+
+/* Skew Method in Transform */
+#skew {
+    text-align: center;
+    color: blue;
+}
+#skewMethod {
+    height: 300px;
+    width: 1200px;
+    margin: 50px;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#SkewMethod1 {
+    background-color: aqua;
+}
+#SkewMethod2 {
+    background-color:yellow;
+}
+#SkewMethod3 {
+    background-color:springgreen;
+}
+#SkewMethod4 {
+    background-color:sienna;
+}
+#SkewMethod5 {
+    background-color:rgb(53, 15, 156);
+}
+#SkewMethod6 {
+    background-color:rgb(172, 21, 139);
+}
+
+#SkewMethod1:hover{
+    transform: skew(30deg);
+}
+#SkewMethod2:hover{
+    transform: skew(-30deg);
+}
+#SkewMethod3:hover{
+    transform: skewy(30deg);
+}
+#SkewMethod4:hover{
+    transform: skewy(-30deg);
+}
+#SkewMethod5:hover{
+    transform: skew(50deg);
+}
+#SkewMethod6:hover{
+    transform: skew(90deg);
+}
+
+
+
+
