@@ -7,10 +7,11 @@
 .box {
     height: 100px;
     width: 100px;
-    background-color: yellowgreen;
+    background-color: rgb(161, 36, 74);
     border: 1.7px solid black;
     border-radius: 5px;
     text-align: center;
+    align-content: center;
     margin: 5px;
 }
 
